@@ -15,6 +15,7 @@ tail: Um array que contém todos os segmentos da cobra. Cada segmento é represe
 rotateX e rotateY: Essas variáveis controlam a direção em que a cobra está se movendo. Por exemplo, rotateX = 1 significa que a cobra está se movendo para a direita, e rotateY = -1 significa que a cobra está se movendo para cima.
 Métodos:
 move(): Esse método atualiza a posição da cobra de acordo com a direção (rotateX e rotateY). Ele faz isso removendo o primeiro segmento da cobra (cauda) e adicionando um novo segmento na frente (cabeça). A posição do novo segmento é baseada na posição do último segmento (o que era a cabeça).
+
 2. Classe Apple
 A classe Apple define a maçã, que aparece em posições aleatórias no canvas. A maçã tem as seguintes propriedades:
 
@@ -24,6 +25,7 @@ size: O tamanho da maçã, que é o mesmo da cobra.
 color: A cor da maçã, definida como roxo (#BB86FC).
 Construtor:
 A maçã é posicionada aleatoriamente no canvas. O código garante que a maçã não apareça na mesma posição que qualquer segmento da cobra (verificando se as coordenadas da maçã coincidem com qualquer segmento da cobra).
+
 3. Inicialização do Jogo
 A partir da função window.onload, o jogo é iniciado através da chamada da função gameLoop(). O gameLoop define o ritmo do jogo, atualizando a tela a cada 50ms (20 frames por segundo).
 
@@ -53,6 +55,7 @@ Desenha a maçã como um quadrado roxo.
 Exibe a pontuação (número de segmentos da cobra - 1) no canto superior direito.
 createRect()
 Função utilitária para desenhar um retângulo de uma cor específica no canvas. Ela é usada para desenhar a cobra e a maçã.
+
 5. Controle por Teclado
 O código também inclui um ouvinte de eventos de teclado (window.addEventListener("keydown", ...)) que permite ao jogador controlar a direção da cobra usando as setas do teclado. Dependendo da tecla pressionada, as variáveis rotateX e rotateY são atualizadas para mudar a direção da cobra.
 
