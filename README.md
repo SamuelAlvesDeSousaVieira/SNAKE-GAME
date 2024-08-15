@@ -67,14 +67,4 @@ Detecção de colisão com maçã: Sempre que a cobra se move, o jogo verifica s
 Detecção de colisão com paredes: Se a cobra colidir com as bordas do canvas, ela reaparece do lado oposto.
 Renderização: A cada iteração do loop do jogo, a cobra e a maçã são redesenhadas no canvas, e a pontuação é atualizada com base no comprimento da cobra.
 Conclusão
-Este código implementa um jogo simples, mas eficaz, da "Cobrinha", utilizando classes para organizar os objetos do jogo e funções auxiliares para controlar o fluxo do jogo, renderização e interação do usuário. A lógica de movimento, crescimento da cobra e interação com o canvas são manipulados de forma sequencial e lógica, proporcionando uma experiência de jogo fluida e funcional.
-
-
-
-
-
-
-4o
-
-
-</p>
+Este código implementa um jogo simples, mas eficaz, da "Cobrinha", utilizando classes para organizar os objetos do jogo e funções auxiliares para controlar o fluxo do jogo, renderização e interação do usuário. A lógica de movimento, crescimento da cobra e interação com o canvas são manipulados de forma sequencial e lógica, proporcionando uma experiência de jogo fluida e funcional.</p>
